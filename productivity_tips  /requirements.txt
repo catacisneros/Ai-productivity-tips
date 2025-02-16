@@ -1,7 +1,5 @@
 Flask>=2.0.0
-llama-index>=0.10.0
-wandb>=0.12.0
-openai
 flask-cors>=3.0.0
 google-generativeai>=0.3.0
 python-dotenv>=0.19.0
+openai>=1.0.0

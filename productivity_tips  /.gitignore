@@ -20,6 +20,7 @@ build/
 .DS_Store
 
 # LlamaIndex
+<<<<<<< HEAD
 index.json
 
 # Environment variables
@@ -28,3 +29,6 @@ index.json
 .env.development
 .env.test
 .env.production 
+=======
+index.json 
+>>>>>>> 2cf46b3fd721e7aa2c336ae054a3b019b59b8565
