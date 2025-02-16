@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configure Gemini API
-genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
+genai.configure(api_key=os.getenv('AIzaSyAsKCGL3xP1FU_TyFBB0Tt2jj4GIJOahZU'))
 model = genai.GenerativeModel('gemini-pro')
 
 app = Flask(__name__)
