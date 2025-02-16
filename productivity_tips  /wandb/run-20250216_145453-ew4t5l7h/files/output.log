@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/Users/catacisneros/ai-productivity-tips/productivity_tips  /llama_server.py", line 67, in <module>
+    index = create_index()
+  File "/Users/catacisneros/ai-productivity-tips/productivity_tips  /llama_server.py", line 24, in create_index
+    documents = SimpleDirectoryReader('./productivity_tips').load_data()
+  File "/Users/catacisneros/opt/anaconda3/lib/python3.9/site-packages/llama_index/core/readers/file/base.py", line 278, in __init__
+    raise ValueError(f"Directory {input_dir} does not exist.")
+ValueError: Directory ./productivity_tips does not exist.
+Traceback (most recent call last):
+  File "/Users/catacisneros/ai-productivity-tips/productivity_tips  /llama_server.py", line 67, in <module>
+    index = create_index()
+  File "/Users/catacisneros/ai-productivity-tips/productivity_tips  /llama_server.py", line 24, in create_index
+    documents = SimpleDirectoryReader('./productivity_tips').load_data()
+  File "/Users/catacisneros/opt/anaconda3/lib/python3.9/site-packages/llama_index/core/readers/file/base.py", line 278, in __init__
+    raise ValueError(f"Directory {input_dir} does not exist.")
+ValueError: Directory ./productivity_tips does not exist.

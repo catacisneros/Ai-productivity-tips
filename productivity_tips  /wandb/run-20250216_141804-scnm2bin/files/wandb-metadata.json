@@ -1,0 +1,15 @@
+{
+  "os": "macOS-10.16-x86_64-i386-64bit",
+  "python": "CPython 3.9.7",
+  "startedAt": "2025-02-16T22:18:06.837250Z",
+  "program": "/Users/catacisneros/ai-productivity-tips/productivity_tips  /llama_server.py",
+  "codePath": "productivity_tips  /llama_server.py",
+  "git": {
+    "commit": "c091466de10d5c8a30f6c30ffa67e61b351afdd6"
+  },
+  "email": "cmcr2002@gmail.com",
+  "root": "/Users/catacisneros/ai-productivity-tips/productivity_tips  ",
+  "host": "c-24-5-56-130.hsd1.ca.comcast.net",
+  "executable": "/Users/catacisneros/opt/anaconda3/bin/python",
+  "codePathLocal": "llama_server.py"
+}

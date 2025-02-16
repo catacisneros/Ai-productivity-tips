@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/catacisneros/ai-productivity-tips/productivity_tips  /llama_server.py", line 15, in <module>
+    wandb.log({"question": question, "response": response})
+NameError: name 'question' is not defined
+Traceback (most recent call last):
+  File "/Users/catacisneros/ai-productivity-tips/productivity_tips  /llama_server.py", line 15, in <module>
+    wandb.log({"question": question, "response": response})
+NameError: name 'question' is not defined
