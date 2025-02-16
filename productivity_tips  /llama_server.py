@@ -11,16 +11,19 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
-# Configure API keys 
-GOOGLE_API_KEY = os.getenv("AIzaSyAsKCGL3xP1FU_TyFBB0Tt2jj4GIJOahZU")
-OPENAI_API_KEY = os.getenv("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")
+# Configure API keys from environment variables
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+
+if not GOOGLE_API_KEY or not OPENAI_API_KEY:
+    raise ValueError("Missing API keys in .env file")
 
 # Configure Gemini
-genai.configure(api_key="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")
+genai.configure(api_key=GOOGLE_API_KEY)
 gemini_model = genai.GenerativeModel('gemini-pro')
 
 # Configure OpenAI
-openai.api_key = "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"
+openai.api_key = OPENAI_API_KEY
 
 SYSTEM_PROMPT = """You are a productivity expert. Provide helpful, practical advice about productivity, time management, and efficiency. 
 Focus on actionable tips and real-world examples. Base your answers on well-known productivity principles and methodologies."""
